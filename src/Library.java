@@ -35,7 +35,7 @@ choice=Integer.parseInt(x);
                 	Controller.addABook();
                     break;
                 case 3:
-                	Controller.displayAllStudents();
+                	Controller.displayAllStudents(null);
                     break;
                 case 4:
                 	Controller.displayAllBooks();

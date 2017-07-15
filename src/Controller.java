@@ -126,8 +126,9 @@ public static  ArrayList<Student>  returnStudents()
     }
     
     
-    /** Display All Students in the list we have **/
-    static void displayAllStudents() {
+    /** Display All Students in the list we have 
+     * @param newParam TODO**/
+    static void displayAllStudents(Object newParam) {
         System.out.printf("|---------------------------------|\n");
         System.out.printf("|%10s|%10s|%10s|\n", "Student ID", "First Name", "Last Name");
         System.out.printf("|--------------------------------|\n");
